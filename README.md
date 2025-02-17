@@ -41,7 +41,7 @@ Welcome to the **Rock Paper Scissors Game**! ✋✌️✊ This is a fun, interac
    npm start
    ```
 
-5. Open your browser and visit [SHI-FU-MI]((https://shi-fu-mi-phi.vercel.app/)) to play the game! 🌐
+5. Open your browser and visit ([https://shi-fu-mi-phi.vercel.app/]) to play the game! 🌐
 
 ## Technologies Used 🔧
 
