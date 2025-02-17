@@ -3,8 +3,6 @@ import { Howl } from "howler";
 import winSound from "../assets/good.wav";
 import loseSound from "../assets/lose.wav";
 import drawSound from "../assets/draw.wav";
-import WinnerModal from "../components/WinnerModal"; // Importa el modal de ganador
-import LoserModal from "../components/LoserModal"; // Importa el modal de perdedor
 
 const choices = ["rock", "paper", "scissors"];
 
@@ -13,8 +11,6 @@ export function useGameLogic(setScore) {
   const [computerChoice, setComputerChoice] = useState(null);
   const [result, setResult] = useState("");
   const [gameOver, setGameOver] = useState(false);
-  const [showWinnerModal, setShowWinnerModal] = useState(false);
-  const [showLoserModal, setShowLoserModal] = useState(false);
 
   const sounds = {
     win: new Howl({ src: [winSound] }),
@@ -55,14 +51,11 @@ export function useGameLogic(setScore) {
     }
   };
 
-
   return {
     playerChoice,
     computerChoice,
     result,
     play,
     gameOver,
-    showWinnerModal,
-    showLoserModal,
   };
 }
