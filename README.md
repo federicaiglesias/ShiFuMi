@@ -1,26 +1,21 @@
-Got it! Here's the updated README without the 5-rounds rule:
+# Rock Paper Scissors Game 🪖📝
 
----
+Welcome to the **Rock Paper Scissors Game**! ✋✌️✊ This is a fun, interactive game where you can compete against the computer in a classic game of Rock, Paper, Scissors.
 
-# Rock Paper Scissors Game
+## Features 🎮
 
-Welcome to the **Rock Paper Scissors Game**! This is a fun, interactive game where you can compete against the computer in a classic game of Rock, Paper, Scissors.
+- **Play Against the Computer:** Choose between **Rock**, **Paper**, or **Scissors** and compete against the computer 🤖.
+- **Sound Effects:** Enjoy immersive sound effects for winning 🏆, losing 💥, and drawing ⚖️ rounds.
+- **Player Score:** Track your score and the computer's score throughout the game 📊.
 
-## Features
+## How to Play 🎲
 
-- **Play Against the Computer:** Choose between Rock, Paper, or Scissors and compete against the computer.
-- **Sound Effects:** Enjoy immersive sound effects for winning, losing, and drawing rounds.
-- **Winner and Loser Modals:** Once the game ends, a modal appears to show the winner (you or the computer).
-- **Player Score:** Track your score and the computer's score throughout the game.
+1. Enter your **nickname** and click the **Play** button 🎯.
+2. Choose one of the following options: **Rock**, **Paper**, or **Scissors** ✊✋✌️.
+3. The game will automatically play the round, and the result will be displayed 📜.
+4. The game continues for multiple rounds until you decide to restart 🔄.
 
-## How to Play
-
-1. Enter your **nickname** and click the **Play** button.
-2. Choose one of the following options: **Rock**, **Paper**, or **Scissors**.
-3. The game will automatically play the round, and the result will be displayed.
-4. The game continues for multiple rounds until you decide to restart.
-
-## Installation
+## Installation ⚙️
 
 1. Clone the repository:
 
@@ -46,26 +41,19 @@ Welcome to the **Rock Paper Scissors Game**! This is a fun, interactive game whe
    npm start
    ```
 
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to play the game!
+5. Open your browser and visit [SHI-FU-MI]((https://shi-fu-mi-phi.vercel.app/)) to play the game! 🌐
 
-## Technologies Used
+## Technologies Used 🔧
 
-- **React** - JavaScript library for building user interfaces.
-- **Howler.js** - JavaScript library for playing audio.
-- **CSS** - Styling for the game interface.
+- **React** - JavaScript library for building user interfaces ⚛️.
+- **Howler.js** - JavaScript library for playing audio 🎶.
+- **CSS** - Styling for the game interface 🎨.
 
-## Contributing
+## Contributing 🤝
 
-If you'd like to contribute to the project, feel free to fork the repository, make changes, and submit a pull request. We welcome any improvements, bug fixes, or new features!
+If you'd like to contribute to the project, feel free to fork the repository, make changes, and submit a pull request 🔀. We welcome any improvements, bug fixes, or new features!
 
-## License
+## Contact 📬
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+For any questions or feedback, feel free to open an issue or reach out to the project maintainer at `your-email@example.com` 📧.
 
-## Contact
-
-For any questions or feedback, feel free to open an issue or reach out to the project maintainer at `your-email@example.com`.
-
----
-
-This version omits the part about winning 5 rounds. Let me know if you'd like to change anything else!
