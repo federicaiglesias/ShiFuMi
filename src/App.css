@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #00bfff, #8a2be2, #ff4500);
+  background-size: 400% 400%;
+  animation: gradient-motion 10s ease infinite;
+}
+.font {
+  font-family: "Press Start 2P", cursive;
+}
+.font-2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@keyframes gradient-motion {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.result-modal {
+  text-align: center;
+  margin-top: 20px;
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hands {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.hand {
+  font-size: 40px;
+  animation: handMove 0.5s ease-out;
+}
+
+@keyframes handMove {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.play-button:hover {
+  background-color: rgb(230, 230, 184);
+}
+.reset-button:hover {
+  color: rgb(230, 230, 184);
+}
+
+.scoreboard {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.sound-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ffd700;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sound-button:hover {
+  background-color: #ff6347;
+}
+
+@media (max-width: 768px) {
+  .choices {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,68 @@
+.choice-button {
+  padding: 20px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.choice-button.rock {
+  transform: scale(1.1) rotate(-10deg);
+}
+
+.choice-button.paper {
+  transform: scale(1.1) rotate(0deg);
+}
+
+.choice-button.scissors {
+  transform: scale(1.1) rotate(10deg);
+}
+
+.choice-button:hover {
+  transform: scale(1.2);
+}
+
+.choice-button:active {
+  transform: scale(0.95);
+}
+
+.choice-button:hover {
+  transform: scale(1.05);
+}
+
+.choice-button.rock {
+  background-color: #ff4500;
+  color: white;
+}
+
+.choice-button.rock:hover {
+  background-color: #ff6347;
+}
+
+.choice-button.paper {
+  background-color: #8a2be2;
+  color: white;
+}
+
+.choice-button.paper:hover {
+  background-color: #9b30ff;
+}
+
+.choice-button.scissors {
+  background-color: #00bfff;
+
+  color: white;
+}
+
+.choice-button.scissors:hover {
+  background-color: #1e90ff;
+}
+
+.choice-button:focus {
+  outline: none;
+  border: 3px solid #ffd700;
+}
