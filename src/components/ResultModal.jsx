@@ -10,7 +10,7 @@ function ResultModal({ playerChoice, computerChoice, result }) {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.5 }}
     >
-      <div className="d-flex">
+      <div className="d-flex justify-content-center">
         <p className="me-5">You chose: {playerChoice}</p>
         <p>Computer chose: {computerChoice}</p>
       </div>
