@@ -55,5 +55,5 @@ If you'd like to contribute to the project, feel free to fork the repository, ma
 
 ## Contact 📬
 
-For any questions or feedback, feel free to open an issue or reach out to the project maintainer at `your-email@example.com` 📧.
+For any questions or feedback, feel free to open an issue or reach out to the project maintainer at `federicaiglesias1@gmail.com` 📧.
 
